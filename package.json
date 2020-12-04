@@ -1,0 +1,23 @@
+{
+  "name": "adventOfCode",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/brandonFaf/AOC2020.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/brandonFaf/AOC2020/issues"
+  },
+  "homepage": "https://github.com/brandonFaf/AOC2020#readme",
+  "dependencies": {
+    "yup": "^0.32.1"
+  }
+}
