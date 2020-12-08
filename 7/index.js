@@ -45,3 +45,19 @@ const findBag = container => {
 };
 const totalBags = findBag('shiny gold', 1);
 console.log(totalBags - 1);
+
+// shiny gold bags contain 2 dark red bags.
+// dark red bags contain 2 dark orange bags.
+// dark orange bags contain 2 dark yellow bags.
+// dark yellow bags contain 2 dark green bags.
+// dark green bags contain 2 dark blue bags.
+// dark blue bags contain 2 dark violet bags.
+// dark violet bags contain no other bags.
+
+// DV = 1 bag
+// DB = 2*DV + 1 (the DB bag)
+// DG = 2*DB + 1 (the DG bag)
+// DY = 2*DG + 1 (the DY bag)
+// DO = 2*DY + 1 (the DO bag)
+// DR = 2*DO + 1 (the DR bag)
+// SG = 2*DR (Don't include the SG bag)
